@@ -35,6 +35,7 @@ You may also want to announce your tool in the
     * [Palmyra](#palmyra)
     * [BoAT](#boat)
     * [ConlluVisualiser](#conlluvisualiser)
+    * [GitDOX](#gitdox)
   * Editor modes
     * [Emacs](#emacs)
     * [Atom](#atom)
@@ -277,6 +278,20 @@ ConlluVisualiser is a tree visualizer and editor inspired by TrEd but developed 
 * Author: Tereza Storzerová
 * Contact: Dan Zeman (zeman@ufal.mff.cuni.cz)
 
+#### GitDOX
+
+**GitDOX** is a version controlled multilayer annotation tool which supports annotation of XML data, grid-based tags, entity and coreference annotation, as well as UD and enhanced UD tree editing. It is intended to run as a server for annotators using a browser, but can be run locally. To test UD annotation, use the demo of the Dendroid dependency tree widget on the tool website (or use [this direct link](https://gucorpling.org/gitdox/demo.html?editor=dendroid)). 
+
+This is the annotation tool used to create and expand the UD English [GUM corpus](https://gucorpling.org/gum/).
+
+* Category: manual annotation tool
+* Platform: cross-platform (tested on Windows and Linux)
+* Implementation: Python 3 (backend), JavaScript (frontend)
+* Homepage: <https://gucorpling.org/gitdox/>
+* References: [Zhang & Zeldes (2017)](https://cdn.aaai.org/ocs/15451/15451-68738-1-PB.pdf)
+* Author: Shuo Zhang, Amir Zeldes, Emma Manning, Luke Gessler
+* Contact: [Amir Zeldes](https://gucorpling.org/amir/)
+
 ### Editor modes
 
 #### Emacs
@@ -364,8 +379,8 @@ DepEdit is a simple, open source, configurable tool for manipulating dependency 
 * Platform: Windows, Linux, OSX
 * Implementation: Python 2/3
 * License: Apache License 2.0 (open source)
-* Homepage: <https://corpling.uis.georgetown.edu/depedit/>
-* References: [see website](https://corpling.uis.georgetown.edu/depedit/)
+* Homepage: <https://gucorpling.org/depedit/>
+* References: [see website](https://gucorpling.org/depedit/)
 
 
 #### DKPro Core CoNLL-U reader/writer
